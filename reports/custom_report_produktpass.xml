@@ -14,7 +14,7 @@
       <field name='parser_state'>default</field>
       <field name='preload_mode'>static</field>
       <field name='process_sep' eval='True'/>
-      <field name='report_name'>product.produktpass.openat</field>
+      <field name='report_name'>ProduktPassDE</field>
       <field name='report_rml'>>openat_produktpass_aeroo_reports/reports/report_produktpass_de.odt</field>
       <field name='report_type'>aeroo</field>
       <field name='report_wizard' eval='False'/>
@@ -27,8 +27,8 @@
         <field eval="'action'" name="key"/>
         <field eval="'client_print_multi'" name="key2"/>
         <field eval="['product.product']" name="models"/>
-        <field name="name">product.produktpass.openat</field>
-        <field eval="'ir.actions.report.xml,'+str(ir_actions_report_xml_produktpass_openat)" name="value"/>
+        <field name="name">ProduktPassDE</field>
+        <field eval="'ir.actions.report.xml,'+str(ir_actions_report_xml_report_product_produktpass_openat)" name="value"/>
         <field eval="True" name="isobject"/>
         <field eval="True" name="replace"/>
     </ir_set>
