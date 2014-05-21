@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<openerp>
+  <data noupdate='0'>
+    <record model='ir.actions.report.xml' id='action_report_product_produktpass_openat'>
+      <field search="[(u'code', '=', u'oo-pdf')]" name='out_format'/>
+      <field name='active' eval='True'/>
+      <field name='attachment_use' eval='False'/>
+      <field name='charset'>utf_8</field>
+      <field name='copies' eval='1'/>
+      <field name='in_format'>oo-odt</field>
+      <field name='model'>product.product</field>
+      <field name='multi' eval='False'/>
+      <field name='name'>ProduktPassDE</field>
+      <field name='parser_state'>default</field>
+      <field name='preload_mode'>static</field>
+      <field name='process_sep' eval='True'/>
+      <field name='report_name'>product.produktpass.openat</field>
+      <field name='report_rml'>>openat_produktpass_aeroo_reports/reports/report_produktpass_de.odt</field>
+      <field name='report_type'>aeroo</field>
+      <field name='report_wizard' eval='False'/>
+      <field name='styles_mode'>default</field>
+      <field name='tml_source'>file</field>
+      <field name='type'>ir.actions.report.xml</field>
+      <field name='fallback_false' eval='False'/>
+    </record>
+  </data>
+</openerp>
