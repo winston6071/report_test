@@ -15,7 +15,7 @@
       <field name='preload_mode'>static</field>
       <field name='process_sep' eval='True'/>
       <field name='report_name'>ProduktPassDE</field>
-      <field name='report_rml'>openat_produktpass_aeroo_reports/reports/report_produktpass_de.odt</field>
+      <field name='report_rml'>openat_produktpass_aeroo_reports/reports/report_ProduktPass_de.odt</field>
       <field name='report_type'>aeroo</field>
       <field name='report_wizard' eval='False'/>
       <field name='styles_mode'>default</field>
