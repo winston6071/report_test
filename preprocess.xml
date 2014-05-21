@@ -2,7 +2,7 @@
 <openerp>
   <data>
     <function model="ir.actions.report.xml" name="_remake_print_button">
-        <value eval="ref('product.product.produktpass.openat')"/>
+        <value eval="ref('product.product_produktpass_openat')"/>
         <value eval="ref('action_report_product_produktpass_openat')"/>
     </function>
   </data>
