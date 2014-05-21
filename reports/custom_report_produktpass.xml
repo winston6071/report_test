@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <openerp>
   <data noupdate='0'>
-    <record model='ir.actions.report.xml' id='action_report_product_produktpass_openat'>
+    <record model='ir.actions.report.xml' id='report_product_produktpass_openat_id'>
       <field search="[(u'code', '=', u'oo-pdf')]" name='out_format'/>
       <field name='active' eval='True'/>
       <field name='attachment_use' eval='False'/>
@@ -15,7 +15,7 @@
       <field name='preload_mode'>static</field>
       <field name='process_sep' eval='True'/>
       <field name='report_name'>ProduktPassDE</field>
-      <field name='report_rml'>>openat_produktpass_aeroo_reports/reports/report_produktpass_de.odt</field>
+      <field name='report_rml'>openat_produktpass_aeroo_reports/reports/report_produktpass_de.odt</field>
       <field name='report_type'>aeroo</field>
       <field name='report_wizard' eval='False'/>
       <field name='styles_mode'>default</field>
@@ -28,7 +28,7 @@
         <field eval="'client_print_multi'" name="key2"/>
         <field eval="['product.product']" name="models"/>
         <field name="name">ProduktPassDE</field>
-        <field eval="'ir.actions.report.xml,'+str(ir_actions_report_xml_report_product_produktpass_openat)" name="value"/>
+        <field eval="'ir.actions.report.xml,'+str(ref('report_product_produktpass_openat_id'))" name="value"/>
         <field eval="True" name="isobject"/>
         <field eval="True" name="replace"/>
     </ir_set>
